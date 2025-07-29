@@ -1,11 +1,11 @@
 "use client";
 
 import { FaRegStar } from "react-icons/fa";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 type TestimonialProps = {
   name: string;
-  profileImage: any;
+  profileImage: StaticImageData;
   rating: number;
   description: string;
 };

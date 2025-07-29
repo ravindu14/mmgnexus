@@ -27,7 +27,7 @@ export default function ImageSlider() {
       nextSlide();
     }, 10000); // auto-slide every 4 seconds
     return () => clearInterval(interval);
-  }, []);
+  }, [nextSlide]);
 
   return (
     <div className="relative w-full h-64 md:h-96 rounded overflow-hidden shadow-lg">

@@ -27,7 +27,7 @@ const links = [
 
 type Props = {
   isOpen: boolean;
-  toggleMenu: Function;
+  toggleMenu: () => void;
 };
 
 const Nav = ({ isOpen, toggleMenu }: Props) => {

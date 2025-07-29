@@ -23,9 +23,9 @@ const Banner = () => {
 
         <div className="backdrop-blur-sm bg-black/10 px-4 py-2 rounded mb-4 flex justify-center items-center">
           <div className="text-md md:text-xl w-3/4 h-fit leading-[2rem]">
-            The acronum MMG carries profound significance-representing both the
+            {`The acronum MMG carries profound significance-representing both the
             professional legacies of its founder and the core moral values that
-            shape the firm's philosophy and service delivery model
+            shape the firm's philosophy and service delivery model`}
           </div>
         </div>
         <button className="primary-button">Contact Us Now</button>
